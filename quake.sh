@@ -18,7 +18,7 @@ data="🌍 **Earthquake Alert!**\n\nMagnitude: $mag2\nLocation: $place\nDate and
 
 if [ "$info" != "$last_info" ]; then
     echo "$info" > file.txt
-        curl -X POST -H "Content-Type: application/json" -d "{\"content\":\"$data\"}" "https://discord.com/api/webhooks/1085265376906072234/XI7ubohWFXcOo-HZtMMGynSeZMeyR4IeCE-pAZ60QV0gRpeTwkFV3JKSPafNgskJrDio"
+        curl -X POST -H "Content-Type: application/json" -d "{\"content\":\"$data\"}" "Here-Your-webhook"
 
 fi
 
